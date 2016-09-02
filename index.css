@@ -1,0 +1,60 @@
+html {
+    background: url(rubber_ducky_edited.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#page_title {
+    text-align: center;
+    font-style: bold;
+    font-size: 5.0em;
+    width: 60%;
+    margin: 0 auto;
+    padding: 8px;
+    font-weight: 100;
+    font-family: 'Lato', serif;
+    /*color: rgb(0,76,153);*/
+    /*color: grey;*/
+    /*color: #009900;*/
+    color: white;
+}
+
+#bottom {
+    width: 60%;
+    position: fixed;
+    bottom: 6%; /* MAGIC NUMBER: how far above the bottom we should be */
+    left: 65%; /* MAGIC NUMBER: how aligned the textbox should be */
+    transform: translateX(-50%);
+}
+
+.troubles {
+    border: 2px solid white;
+    background-color: #ad9169;
+    resize: none;
+    font-size: 1.0em;
+    font-family: 'Lato', serif;
+    color: white;
+    width: 48%;
+    height: 100px;
+}
+
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
+}
